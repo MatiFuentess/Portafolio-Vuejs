@@ -2,7 +2,8 @@
     <nav class="navbar">
             <div class="navbar-menu">
                 <ul>
-                 <a v-for="nav in navegacion" :key="nav.nombre" href="nav.enlace" class="nav-item">{{ nav.nombre}}</a>
+                    <!--Se coloco el operador v-bind al atributo href utilizando su minima expreción el operador : / y se soluciono el enlace en distintas secciones-->
+                 <a v-for="nav in navegacion" :key="nav.nombre" :href="nav.enlace" class="nav-item" >{{nav.nombre}}</a>
                 </ul>
             </div>
         </nav>
@@ -14,7 +15,7 @@ const navegacion= ref([
     {id:1, nombre: "Educacion", enlace: "#educacion"},
     {id:2, nombre: "Experiencia", enlace: "#experiencia"},
     {id:3, nombre: "Proyectos", enlace: "#proyectos"},
-    {id:4, nombre: "Habilidades", enlace: "#habilidades"},
+    {id:4, nombre: "Habilidades", enlace: "#habilidades"}
 
 ]);
 </script>
