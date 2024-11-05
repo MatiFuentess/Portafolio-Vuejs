@@ -1,40 +1,51 @@
-
 <script setup>
+import img1 from '/src/components/icons/python1.svg';
+import img2 from '/src/components/icons/javascript.svg';
+import img3 from '/src/components/icons/html.svg';
+import img4 from '/src/components/icons/css.svg';
+import img5 from '/src/components/icons/sql.svg';
+import img6 from '/src/components/icons/java.svg';
+import img7 from '/src/components/icons/vue.svg';
+import img8 from '/src/components/icons/git.svg';
+import img9 from '/src/components/icons/visualstudiocode.svg';
+import img10 from '/src/components/icons/mysql.svg';
+import img11 from '/src/components/icons/arg.svg';
+import img12 from '/src/components/icons/eeuu.svg' ;
 import { ref } from "vue"
 
 // Definir las habilidades en la constante 'habilidades'
 const habilidades = ref([
     {
        id: 1, nombre: "Lenguajes de programacion", habilidades: [
-            { id: 1, nombre: "Python", nivel: "Intermedio", icono: "/src/components/icons/python1.svg" },
-            { id: 2, nombre: "JavaScript", nivel: "Intermedio", icono: "/src/components/icons/javascript.svg" },
-            { id: 3, nombre: "Html", nivel: "Intermedio", icono: "/src/components/icons/html.svg" },
-            { id: 4, nombre: "Css", nivel: "Intermedio", icono: "/src/components/icons/css.svg" },
-            { id: 5, nombre: "Sql", nivel: "Intermedio", icono: "/src/components/icons/sql.svg" },
-            { id: 6, nombre: "Java", nivel: "Intermedio", icono: "/src/components/icons/java.svg" },
+            { id: 1, nombre: "Python", nivel: "Avanzado", icono: img1 },
+            { id: 2, nombre: "JavaScript", nivel: "Avanzado", icono: img2 },
+            { id: 3, nombre: "Html", nivel: "Avanzado", icono: img3 },
+            { id: 4, nombre: "Css", nivel: "Avanzado", icono: img4 },
+            { id: 5, nombre: "Sql", nivel: "Avanzado", icono: img5 },
+            { id: 6, nombre: "Java", nivel: "Avanzado", icono: img6},
         ]
     },
     {
         id: 2, nombre: "Framework y Librerias", habilidades: [
-            { id: 1, nombre: "Vue.js", nivel: "Intermedio", icono: "/src/components/icons/vue.svg" },
+            { id: 1, nombre: "Vue.js", nivel: "Avanzado", icono: img7 },
         ]
     },
     {
         
         id: 3, nombre: "Herramientas y Software", habilidades: [
-            { id: 1, nombre: "Git", nivel: "Intermedio", icono: "/src/components/icons/git.svg" },
-            { id: 2, nombre: "Visual Studio Code", nivel: "Intermedio", icono: "/src/components/icons/visualstudiocode.svg" },
+            { id: 1, nombre: "Git", nivel: "Avanzado", icono: img8 },
+            { id: 2, nombre: "Visual Studio Code", nivel: "Avanzado", icono: img9},
         ]
     },
     {
          id: 4, nombre: "Base de Datos", habilidades: [
-            { id: 1, nombre: "MySQL", nivel: "Intermedio", icono: "/src/components/icons/mysql.svg" },
+            { id: 1, nombre: "MySQL", nivel: "Avanzado", icono: img10 },
         ]
     },
     {
             id: 5, nombre: "Idiomas", habilidades: [
-            { id: 1, nombre: "Español", nivel: "Nativo", icono: "/src/components/icons/arg.svg" },
-            { id: 2, nombre: "Inglés", nivel: "Intermedio", icono: "/src/components/icons/eeuu.svg" },
+            { id: 1, nombre: "Español", nivel: "Nativo", icono: img11 },
+            { id: 2, nombre: "Inglés", nivel: "Intermedio", icono: img12 },
         ]
     }
 ]);

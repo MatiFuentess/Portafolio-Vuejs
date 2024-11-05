@@ -1,13 +1,18 @@
 <script setup>
+import linkedin from '/src/assets/linkedin-icon.svg';
+import Instagram from '/src/assets/instagram-icon.svg';
+import Github from '/src/assets/github-icon.svg';
+import Curriculum from '/src/assets/curriculum-vitae-icon.svg';
+
 const title = "Matias Fuentes";
 const descripcion = "Tecnico Universitario en programacion - UTN";
 const residencia = "Guaymallén, San Jose, Mendoza, Argentina";
 const presentacion = "Hola, bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y moviles";
 const redesSociales = [
-    {id: 1, name: "Linkedin", src: "src/assets/linkedin-icon.svg", url: "https://www.linkedin.com/in/matias-fuentes-490420209/"},
-    {id: 2, name: "Instagram", src: "src/assets/instagram-icon.svg", url: "https://www.instagram.com/matiasfuentes.07/"},
-    {id: 3, name: "GitHub", src: "src/assets/github-icon.svg", url: "https://github.com/MatiFuentess"},
-    {id: 4, name: "Curriculum", src: "src/assets/curriculum-vitae-icon.svg", url:" " },
+    {id: 1, name: "Linkedin", src: linkedin, url: "https://www.linkedin.com/in/matias-fuentes-490420209/"},
+    {id: 2, name: "Instagram", src: Instagram, url: "https://www.instagram.com/matiasfuentes.07/"},
+    {id: 3, name: "GitHub", src: Github, url: "https://github.com/MatiFuentess"},
+    {id: 4, name: "Curriculum", src: Curriculum, url:" " },
 ];
 const telefono = "+54 2612497770";
 </script>

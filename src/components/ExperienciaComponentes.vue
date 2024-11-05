@@ -1,9 +1,10 @@
 <script setup>
+import icono1 from '/src/assets/imagen.svg';
 import {ref} from 'vue';
 const titulo="Writting Expert IA";
 const fecha = "Desde Junio 2024- hasta la actualidad";
 const experiencias = ref([
-    {id:1, src:"/src/assets/imagen.svg", parrafo: "Consiste en realizar correcciones gramaticales, evaluaciones, analisis, introduccion de promts y correccion de respuestas de la IA"},
+    {id:1, src: icono1, parrafo: "Consiste en realizar correcciones gramaticales, evaluaciones, analisis, introduccion de promts y correccion de respuestas de la IA"},
 ]);
 </script>
 

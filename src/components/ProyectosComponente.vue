@@ -1,4 +1,6 @@
 <script setup>
+import proyecto1 from '/src/assets/outlier.png';
+import proyecto2 from '/src/assets/outlier2.png';
 import { ref } from 'vue';
 var misProyectos = ref([])   
 misProyectos.value = ([
@@ -6,13 +8,13 @@ misProyectos.value = ([
     id:1,
     titulo: "Writing AI",
     descripcion: "Transcribir y modificar respuestas de IA.",
-    src: "src/assets/outlier.jpeg"
+    src: proyecto1
     },
        {
     id:2,
     titulo: "AI Response Analysis",
     descripcion: "Analisis sobre las respuestas de IA y Supervisar el funcionamiento.",
-    src: "src/assets/outlier.jpeg"
+    src: proyecto2
     },
 ]) 
 </script>
