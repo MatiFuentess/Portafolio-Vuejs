@@ -5,10 +5,11 @@ import Educacion from './components/EducacionComponentes.vue';
 import ExperienciaComponentes from './components/ExperienciaComponentes.vue';
 import ProyectosComponente from './components/ProyectosComponente.vue';
 import HabilidadesComponentes from './components/HabilidadesComponentes.vue';
+import InteresesComponentes from './components/InteresesComponentes.vue';
 </script>
 
 <template>
-    <header>
+    <header id="top">
         <!--Barra de navegacion-->
         <Navbar/>
         <!--Componente Datos Personales-->
@@ -37,8 +38,16 @@ import HabilidadesComponentes from './components/HabilidadesComponentes.vue';
             <HabilidadesComponentes />
         </section>
             
-        <section id="intereses"><h2>Intereses</h2></section>
+        <section id="intereses">
+            <h2>Intereses</h2>
+            <!--Componente Intereses-->
+            <InteresesComponentes />
+        </section>
     </main>
+    <footer>
+        <a href="#top">Inicio</a>
+        <p>© 2024 Matias Fuentes - Portafolio Web - tutotial UTN FRSR</p>
+    </footer>
 </template>
  
 <style scoped>
@@ -81,5 +90,13 @@ p {
 h3 {
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.3rem;
 }
 </style>

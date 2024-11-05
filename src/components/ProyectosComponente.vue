@@ -4,14 +4,14 @@ var misProyectos = ref([])
 misProyectos.value = ([
     {
     id:1,
-    titulo: "Jorge",
-    descripcion: "Mathez",
+    titulo: "Writing AI",
+    descripcion: "Transcribir y modificar respuestas de IA.",
     src: "src/assets/outlier.jpeg"
     },
        {
     id:2,
-    titulo: "Jorgjfge",
-    descripcion: "Matgfjfgdjhez",
+    titulo: "AI Response Analysis",
+    descripcion: "Analisis sobre las respuestas de IA y Supervisar el funcionamiento.",
     src: "src/assets/outlier.jpeg"
     },
 ]) 
